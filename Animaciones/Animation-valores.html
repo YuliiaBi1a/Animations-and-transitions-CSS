@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes slidein {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+        border-radius: none;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+        border-radius: 50%;
+
+      }
+    }
+
+    .element-to-animate {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(28, 145, 47);
+      margin-left: 50%;
+      animation: slidein 3s ease-in 1s infinite/*2 infinite*/ 
+      alternate /*normal reverse alternate alternate-revers*/ 
+      forwards /*none forwards backwards both*/
+      running/*running paused*/;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="element-to-animate"></div>
+
+</body>
+</html>

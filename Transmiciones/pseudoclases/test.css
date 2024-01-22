@@ -1,0 +1,26 @@
+.hover-transform-example {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s ease-in-out; 
+  }
+  .hover-transform-example:hover {
+    transform: scale(1.2) rotate(45deg) translate(20px, 20px);
+    transform: scale(1.2); /* aumentando el tamaño del 
+    elemento en un 20% con respecto a su tamaño original*/
+    transform: translate(20px, 20px); /* el elemento se 
+    desplaza 20 píxeles a la derecha y 20 píxeles hacia abajo*/
+    transform: rotate(45deg);/*el elemento gira alrededor de su 
+    centro 45 grados.*/
+    transform: skew(30deg, 20deg);/*el elemento se inclina 30 
+    grados horizontalmente y 20 grados verticalmente.*/
+  }
+
+  .hover-transform-example:hover {
+    background-color: #55db34;
+    color: #000000;
+    text-align: left;
+    border: 10px solid rgb(245, 241, 0);
+    transition: transform 0.3s ease-in-out; 
+  }

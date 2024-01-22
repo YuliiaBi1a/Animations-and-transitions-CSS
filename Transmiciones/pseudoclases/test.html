@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>:hover transform Example</title>
+  <style>
+    .hover-transform-example {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  transition: transform 0.3s ease-in-out; /* Додаємо плавну анімацію */
+}
+
+.hover-transform-example:hover {
+  transform: scale(1.2); /* Збільшення масштабу при наведенні */
+  transform: skew(30deg, 20deg);
+}
+  </style>
+</head>
+<body>
+  <div class="hover-transform-example">
+    Hover me!
+  </div>
+</body>
+</html>

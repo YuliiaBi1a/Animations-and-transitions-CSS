@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>:focus Example</title>
+
+  <style>
+    *{
+        font-size: 32px;
+    }
+/* Estilo por defecto para el campo de texto */
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo cuando el campo de texto está en foco */
+input:focus {
+  border: 10px solid #3498db;
+  background-color: rgb(255, 0, 119);
+}
+  </style>
+</head>
+<body>
+  <label for="username">User name:</label>
+  <input type="text" id="username" name="username">
+</body>
+</html>
